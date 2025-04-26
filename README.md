@@ -22,7 +22,7 @@ Aplicativo de clima desenvolvido em React Native, com foco em exibir a previsão
 - Temperatura máxima e mínima do dia
 - Indicador de carregamento ao buscar dados
   
-<img src="Trabalho_Mobile/assets/prints/tela_clima.png" width="550" height="150">
+<img src="Trabalho_Mobile/assets/prints/tela_clima.png" width="250" height="250">
 
 ### 3) Ícones e Imagens
 - Ícone animado representando o clima atual
