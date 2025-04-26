@@ -1,6 +1,6 @@
 import { Tabs } from 'expo-router';
 import React from 'react';
-import { Platform } from 'react-native';
+import { Image, Platform } from 'react-native';
 
 import { HapticTab } from '@/components/HapticTab';
 import { IconSymbol } from '@/components/ui/IconSymbol';
@@ -20,24 +20,48 @@ export default function TabLayout() {
         tabBarBackground: TabBarBackground,
         tabBarStyle: Platform.select({
           ios: {
-            // Use a transparent background on iOS to show the blur effect
             position: 'absolute',
           },
           default: {},
         }),
-      }}>
+      }}
+    >
       <Tabs.Screen
-        name="index"
+        name="inicio"
         options={{
-          title: 'Home',
-          tabBarIcon: ({ color }) => <IconSymbol size={28} name="house.fill" color={color} />,
+          title: 'Início',
+          tabBarIcon: ({ color, size = 28 }) => (
+          <Image
+            source={require('@/assets/images/inicio.png')} 
+            style={{ width: size, height: size, tintColor: color }}
+            resizeMode="contain"/>
+          ),
         }}
       />
       <Tabs.Screen
-        name="explore"
+        name="sobre"
         options={{
-          title: 'Explore',
-          tabBarIcon: ({ color }) => <IconSymbol size={28} name="paperplane.fill" color={color} />,
+          title: 'Sobre',
+          tabBarIcon: ({ color, size = 28 }) => (
+            <Image
+            source={require('@/assets/images/sobre.webp')} 
+            style={{ width: size, height: size, tintColor: color }}
+            resizeMode="contain"
+          />
+          ),
+        }}
+      />
+      <Tabs.Screen
+        name="clima" 
+        options={{
+          title: 'Clima',
+          tabBarIcon: ({ color, size = 28 }) => (
+            <Image
+              source={require('@/assets/images/nuvem.png')} 
+              style={{ width: size, height: size, tintColor: color }}
+              resizeMode="contain"
+            />
+          ),
         }}
       />
     </Tabs>

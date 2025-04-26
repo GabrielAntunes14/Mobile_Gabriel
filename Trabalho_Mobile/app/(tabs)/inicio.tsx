@@ -8,48 +8,53 @@ import { ThemedView } from '@/components/ThemedView';
 export default function HomeScreen() {
   return (
     <ParallaxScrollView
-      headerBackgroundColor={{ light: '#A1CEDC', dark: '#1D3D47' }}
+      headerBackgroundColor={{ light: '#D0D0D0', dark: '#353636' }}
       headerImage={
         <Image
-          source={require('@/assets/images/PeixeGalo.webp')}
+          source={require('@/assets/images/Oi - inicio.png')}
           style={styles.reactLogo}
         />
       }>
       <ThemedView style={styles.titleContainer}>
-        <ThemedText type="title">Peixes</ThemedText>
+        <ThemedText type="title">Opa!</ThemedText>
         <HelloWave />
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle"></ThemedText>
-        <ThemedText>
-   <ThemedText type="defaultSemiBold"></ThemedText>
-          {' '}
-          <ThemedText type="defaultSemiBold">
-            {Platform.select({
-              ios: 'cmd + d',
-              android: 'cmd + m',
-              web: 'F12'
-            })}
-          </ThemedText>{' '}
-        </ThemedText>
+        <ThemedText type="subtitle">Meu nome é Gabriel e atualmente estou cursando o 3° ano do ensino médio técnico.
+           em desenvolvimento de sistemas</ThemedText>
+        
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Step 2: Explore</ThemedText>
+        <ThemedText type="subtitle">Pretendo futuramente fazer uma faculdade de ADS e também de Engenharia de Software para poder
+          melhorar meu curriculo, mas também sempre estudar fora e procurar saber mais sobre tudo que envolve desenvolvimento de sistemas.
+        </ThemedText>
         <ThemedText>
         </ThemedText>
+     
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Step 3: Get a fresh start</ThemedText>
+        <ThemedText type="subtitle">Também penso muito em futuramente trabalhar no auxílio em criação de jogos, não pensando apenas
+          como algo para ter na minha carreira, mas também como um sonho que algum dia pretendo realizar
+        </ThemedText>
+
+        <Image
+          source={require('@/assets/images/castlevania.gif')}
+          style={styles.reactCastle}
+        />
+
         <ThemedText>
+        
       {' '}
+      
           <ThemedText type="defaultSemiBold"></ThemedText> {' '}
           <ThemedText type="defaultSemiBold"></ThemedText> {' '}
           <ThemedText type="defaultSemiBold"></ThemedText> {' '}
-          <ThemedText type="defaultSemiBold"></ThemedText>.
+          <ThemedText type="defaultSemiBold"></ThemedText>
         </ThemedText>
       </ThemedView>
     </ParallaxScrollView>
   );
+
 }
 
 const styles = StyleSheet.create({
@@ -63,10 +68,19 @@ const styles = StyleSheet.create({
     marginBottom: 8,
   },
   reactLogo: {
-    height: 300,
+    height: 600,
     width: 400 ,
     bottom: 0,
     left: 0,
     position: 'absolute',
+    top:-150,
   },
+  reactCastle: {
+    height: 300, 
+    width: 300,
+    alignSelf: 'center',
+    marginTop:20,
+    marginBottom:50,
+  },
+  
 });
