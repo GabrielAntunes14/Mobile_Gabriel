@@ -46,4 +46,4 @@ Ideal para quem quer verificar a temperatura e condições do tempo antes de sai
 ##  Feito po:
 Gabriel Antunes Przygoda
 3° Ano - Desenvolvimento de Sistemas  
-<img src="Trabalho_Mobile/assets/prints/cuidado.png" heigh:300px >
+<img src="Trabalho_Mobile/assets/prints/cuidado.png" width="200" height="200">
