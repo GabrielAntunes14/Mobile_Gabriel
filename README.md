@@ -28,6 +28,8 @@ Aplicativo de clima desenvolvido em React Native, com foco em exibir a previsão
 - Ícone animado representando o clima atual
 - Interface visual limpa com cores contrastantes
 
+ <img src="Trabalho_Mobile/assets/prints/icones.png" width="500" height="250">
+
 ##  Objetivo
 O app foi criado para facilitar o acesso rápido e direto à previsão do tempo, de forma prática e visual.  
 Ideal para quem quer verificar a temperatura e condições do tempo antes de sair de casa, viajar ou planejar o dia.
