@@ -8,11 +8,12 @@ Aplicativo de clima desenvolvido em React Native, com foco em exibir a previsão
 ## Telas do Aplicativo
 
 ### 1) Escolha de Cidade
-<img src="Trabalho_Mobile/assets/prints/cidades.png" width="550" height="150">
+
 - Lista de cidades disponível na parte superior
 - Rolagem horizontal com toque para selecionar
 - Busca automática ao selecionar uma cidade
-
+  
+<img src="Trabalho_Mobile/assets/prints/cidades.png" width="550" height="150">
 ### 2) Tela de Clima
 - Exibição do nome da cidade
 - Temperatura atual (com ícone de clima)
