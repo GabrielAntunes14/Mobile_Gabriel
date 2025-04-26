@@ -14,12 +14,15 @@ Aplicativo de clima desenvolvido em React Native, com foco em exibir a previsão
 - Busca automática ao selecionar uma cidade
   
 <img src="Trabalho_Mobile/assets/prints/cidades.png" width="550" height="150">
+
 ### 2) Tela de Clima
 - Exibição do nome da cidade
 - Temperatura atual (com ícone de clima)
 - Descrição do clima (nublado, ensolarado, etc)
 - Temperatura máxima e mínima do dia
 - Indicador de carregamento ao buscar dados
+  
+<img src="Trabalho_Mobile/assets/prints/tela_clima.png" width="550" height="150">
 
 ### 3) Ícones e Imagens
 - Ícone animado representando o clima atual
