@@ -82,10 +82,10 @@ const styles = StyleSheet.create({
     gap: 8,
   },
   reactSobre: {
-    height: 320,
-    width: 400 ,
+    height: 280,
+    width: 300 ,
     bottom: 0,
-    left: 49,
+    left: 80,
     position: 'absolute',
     top:-45
   },
